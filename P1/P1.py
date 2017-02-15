@@ -3,6 +3,7 @@ import sys
 
 
 def print_row(row):
+    '''print output'''
     output = ""
     for pixel in range(len(row)):
         output += str(row[pixel])
@@ -10,6 +11,7 @@ def print_row(row):
 
 
 def main(argv):
+    '''input rule rows , ouptput a pbm file of  image'''
     rules = int(argv[0])
     steps = int(argv[1])
     row = []
