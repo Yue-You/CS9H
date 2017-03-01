@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import requests
+import requests, urllib
 print("Input a city in a state, and get a list of ZIP codes")
 city = input("City:\n")
 state = input("State:\n")

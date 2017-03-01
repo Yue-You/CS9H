@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import sys
 
-
 def distances(amt, src_unit, des_unit):
     '''amt src_unit = ? des_unit
     m (meters), cm (centimeters), mm (millimeters), km (kilometers),
